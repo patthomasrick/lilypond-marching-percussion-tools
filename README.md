@@ -62,11 +62,20 @@ more.
 
 ### Bass Drums
 
-
+-   tap/regular notehead
+    -	`bassI`, `bi`
+    -	`bassII`, `bii`
+    -	`bassIII`, `biii`
+    -	`bassIV`, `biv`
+-   unison
+    -	tap - `unison`, `uni`
+    -	rimhit/click - `rimhit`, `rh`
 
 # Examples
 
-
+[test2.ly](https://github.com/patthomasrick/lilypond-marching-percussion-tools/blob/master/examples/test2.ly)
+->
+[test2.pdf](https://github.com/patthomasrick/lilypond-marching-percussion-tools/blob/master/examples/test2.pdf)
 
 # Todo
 -   cymbals are part of drumline too
