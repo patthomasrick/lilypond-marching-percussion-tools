@@ -12,3 +12,19 @@ features are:
 	    `sn4_\rh`
 -   overall format that's better suited for reading music down - entered with
     `\format`
+
+# Usage
+
+Examples are very handy for this. To make it so that you do not have to copy and
+paste `marching-drum-staves.ly` into every folder you have music in, it is
+recommended that you use the `-I` flag with when you invoke Lilypond, that is:
+```bash
+lilypond --pdf --loglevel=WARN -I "/FOLDER/CONTAINING/MARCHING_DRUM_STAVES" -o "OUTPUT_FILE_NAME.pdf"
+```
+
+# Examples
+
+
+
+## Todo
+-   cymbals are part of drumline too
