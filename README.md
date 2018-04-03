@@ -79,3 +79,6 @@ more.
 
 # Todo
 -   cymbals are part of drumline too
+-   more basses/options for high numbers of basses
+-   rimshots and individual rimclicks for basses
+-   more noteheads for snares - guzzes, pingshots, etc.
