@@ -125,23 +125,31 @@ stickingFormatOff = {
 	\textLengthOff
 }
 
+% sticking
 lh = \markup {
 	"L"
 }
-
 rh = \markup {
 	"R"
 }
-
 bh = \markup {
 	"RL"
 }
 
 % my default formatting
 format = {
-    \override Score.SpacingSpanner.strict-note-spacing = ##t
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1/16)
-    \compressFullBarRests
+    % vertical spacing of text
+    % \markup \vspace #1 %avoid LSR-bug
+    \override DynamicLineSpanner.staff-padding = #3
+    \textLengthOn
+    \override TextScript.staff-padding = #1
+    
+    \set alignBelowContext = #"1"
+
+%    \override Score.SpacingSpanner.strict-note-spacing = ##t
+%    \set Score.proportionalNotationDuration = #(ly:make-moment 1/16)
+%    \compressFullBarRests
+
     \stemUp
 }
 
